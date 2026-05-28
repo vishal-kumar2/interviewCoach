@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Interview Coach</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>AI Interview Coach</h1>
+
+    <div id="setup-screen">
+
+      <input type="text" id="role" placeholder="Enter Role">
+
+      <input type="text" id="topic" placeholder="Enter Topic">
+
+      <button id="start-btn">
+        Start Interview
+      </button>
+
+    </div>
+
+    <div id="interview-screen" class="hidden">
+
+      <h2 id="question-number"></h2>
+
+      <p id="question"></p>
+
+      <textarea
+        id="answer"
+        placeholder="Write your answer..."
+      ></textarea>
+
+      <button id="submit-btn">
+        Submit Answer
+      </button>
+
+    </div>
+
+    <div id="result-screen" class="hidden">
+
+      <h2>Interview Result</h2>
+
+      <div id="results"></div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
